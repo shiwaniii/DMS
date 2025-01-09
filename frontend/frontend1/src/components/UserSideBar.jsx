@@ -1,5 +1,5 @@
 import React from "react";
-import { FaHome, FaUser, FaBook, FaCalendar, FaColumns} from "react-icons/fa";
+import { FaHome, FaUser, FaBook, FaCalendar, FaColumns, FaFolder, FaRegFileAlt, FaList} from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 function UserSideBar() {
@@ -28,7 +28,7 @@ function UserSideBar() {
             to="/displayallbooks"
             className="bg-white rounded-xl font-bold flex p-4"
           >
-            <FaColumns size={20} />{" "}
+            <FaFolder size={20} />{" "}
             <span className="ml-3 font-semibold hover:underline hover:decoration-3">
               Document Category
             </span>
@@ -38,7 +38,7 @@ function UserSideBar() {
             to="/displayallbooks"
             className="bg-white rounded-xl font-bold flex p-4"
           >
-            <FaBook size={20} />{" "}
+            <FaList size={20} />{" "}
             <span className="ml-3 font-semibold hover:underline hover:decoration-3">
               Section Listing
             </span>
@@ -48,7 +48,7 @@ function UserSideBar() {
             to="/displayallbooks"
             className="bg-white rounded-xl font-bold flex p-4"
           >
-            <FaBook size={20} />{" "}
+            <FaUser size={20} />{" "}
             <span className="ml-3 font-semibold hover:underline hover:decoration-3">
               User Management
             </span>
@@ -58,7 +58,7 @@ function UserSideBar() {
             to="/displayallbooks"
             className="bg-white rounded-xl font-bold flex p-4"
           >
-            <FaBook size={20} />{" "}
+            <FaRegFileAlt size={20} />{" "}
             <span className="ml-3 font-semibold hover:underline hover:decoration-3">
               Reports
             </span>
