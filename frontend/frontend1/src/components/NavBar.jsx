@@ -6,7 +6,7 @@ function NavBar() {
     <nav className="flex justify-between items-center px-8 py-4 bg-white shadow-md">
       <div className="text-xl font-bold mx-10">Logo</div>
       <div className="space-x-6">
-        <a href="#about" className="text-gray-600">
+        <a href="#about" className="text-gray-700">
           About
         </a>
         <a href="#features" className="text-gray-600">
